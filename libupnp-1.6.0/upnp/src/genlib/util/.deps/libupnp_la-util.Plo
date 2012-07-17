@@ -1,0 +1,170 @@
+src/genlib/util/libupnp_la-util.lo: src/genlib/util/util.c \
+  src/inc/config.h ../autoconfig.h ../upnp/inc/upnp.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/stdio.h \
+  /opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/features.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/predefs.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/cdefs.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/wordsize.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/gnu/stubs.h \
+  /opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include/stddef.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/types.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/typesizes.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/libio.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/_G_config.h \
+  /opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/wchar.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/wchar.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/gconv.h \
+  /opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include/stdarg.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/stdio_lim.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/sys_errlist.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/param.h \
+  /opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/limits.h \
+  /opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/syslimits.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/limits.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/posix1_lim.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/local_lim.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/linux/limits.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/posix2_lim.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/linux/param.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/asm/param.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/types.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/time.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/endian.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/endian.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/select.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/select.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/sigset.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/time.h \
+  /opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/sys/sysmacros.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/pthreadtypes.h \
+  ../ixml/inc/ixml.h /opt/PalmPDK/arm-gcc/sysroot/usr/include/string.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/assert.h \
+  ../upnp/inc/upnpconfig.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/netinet/in.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/stdint.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/socket.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/uio.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/uio.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/socket.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/sockaddr.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/asm/socket.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/asm/sockios.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/in.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/byteswap.h \
+  ../upnp/inc/upnpdebug.h ../upnp/inc/upnp.h src/inc/util.h
+
+src/inc/config.h:
+
+../autoconfig.h:
+
+../upnp/inc/upnp.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/stdio.h:
+
+/opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/features.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/predefs.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/cdefs.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/wordsize.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/gnu/stubs.h:
+
+/opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include/stddef.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/types.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/typesizes.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/libio.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/_G_config.h:
+
+/opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/wchar.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/wchar.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/gconv.h:
+
+/opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include/stdarg.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/stdio_lim.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/sys_errlist.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/param.h:
+
+/opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/limits.h:
+
+/opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/syslimits.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/limits.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/posix1_lim.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/local_lim.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/linux/limits.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/posix2_lim.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/linux/param.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/asm/param.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/types.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/time.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/endian.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/endian.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/select.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/select.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/sigset.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/time.h:
+
+/opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/sys/sysmacros.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/pthreadtypes.h:
+
+../ixml/inc/ixml.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/string.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/assert.h:
+
+../upnp/inc/upnpconfig.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/netinet/in.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/stdint.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/socket.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/uio.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/uio.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/socket.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/sockaddr.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/asm/socket.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/asm/sockios.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/in.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/byteswap.h:
+
+../upnp/inc/upnpdebug.h:
+
+../upnp/inc/upnp.h:
+
+src/inc/util.h:

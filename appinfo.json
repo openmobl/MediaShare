@@ -1,0 +1,16 @@
+{
+	"title": "Media Share",
+	"id": "com.openmobl.app.mediashare",
+	"version": "BUILD_VER",
+	"type": "web",
+	"main": "index.html",
+	"icon": "icon.png",
+    "smallicon": "smallicon.png",
+	"splashicon": "largeicon.png",
+	"splashBackground": "images/splash-dialpad.png",
+	"keywords": ["Media", "Share", "UPnP", "DLNA", "upnp", "media"],
+	"vendor": "OpenMobl Systems",
+    "vendorurl": "http://www.openmobl.com/",
+	"uiRevision": 2,
+	"plug-ins": true
+}

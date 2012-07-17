@@ -1,0 +1,373 @@
+# ./configure --cross-prefix=arm-none-linux-gnueabi- --prefix=/Users/dkirker/projects/webOS/Muses/libs/ --with-libupnp-dir=/Users/dkirker/projects/webOS/Muses/libs/ --cross-compile --disable-dlna --enable-webos
+Apple_PubSub_Socket_Render=/tmp/launch-eSuKcr/Render
+BASH=/bin/sh
+BASH_ARGC=([0]="6")
+BASH_ARGV=([0]="--enable-webos" [1]="--disable-dlna" [2]="--cross-compile" [3]="--with-libupnp-dir=/Users/dkirker/projects/webOS/Muses/libs/" [4]="--prefix=/Users/dkirker/projects/webOS/Muses/libs/" [5]="--cross-prefix=arm-none-linux-gnueabi-")
+BASH_LINENO=([0]="0")
+BASH_SOURCE=([0]="./configure")
+BASH_VERSINFO=([0]="3" [1]="2" [2]="48" [3]="1" [4]="release" [5]="x86_64-apple-darwin10.0")
+BASH_VERSION='3.2.48(1)-release'
+CFLAGS=' -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/'
+COMMAND_MODE=unix2003
+CONFIGFILE=config.mak
+CONFIG_H=config.h
+DBUS_LAUNCHD_SESSION_BUS_SOCKET=/tmp/launch-5SfHba/unix_domain_listener
+DBUS_SESSION_BUS_ADDRESS=unix:path=/tmp/dbus-SOtAqXHVis,guid=7e7f5b2b6d0b2d79434596004eca2437
+DEVKITARM=/opt/local/devkitPro/devkitARM
+DEVKITPRO=/opt/local/devkitPro
+DIRSTACK=()
+DISPLAY=:0.0
+EUID=501
+GROUPS=()
+HOME=/Users/dkirker
+HOSTNAME=flying-toaster
+HOSTTYPE=x86_64
+IFS=' 	
+'
+INFOPATH=/sw/share/info:/sw/info:/usr/share/info
+INSTALL='/usr/bin/install -c'
+LANG=en_US.UTF-8
+LDFLAGS=-L/Users/dkirker/projects/webOS/Muses/libs//lib/
+LOGNAME=dkirker
+MACHTYPE=x86_64-apple-darwin10.0
+MANPATH=/sw/share/man:/usr/share/man:/usr/bin/man:/usr/local/man:/usr/local/share/man:/sw/lib/perl5/5.10.0/man:/usr/X11R6/man:/sw/lib/perl5-core/5.8.6/man:/sw/lib/perl5/5.8.6/man
+OPTERR=1
+OPTIND=1
+OSTYPE=darwin10.0
+PATH=/opt/local/bin:/opt/local/sbin:/opt/sshfs/bin/:/opt/subversion/bin/:/opt/local/bin:/opt/local/sbin:/sw/bin:/sw/sbin:/Users/dkirker/Desktop/Development/Android/android-ndk-r4b/build/prebuilt/darwin-x86/arm-eabi-4.2.1/bin:/bin:/sbin:/usr/bin:/usr/local/bin:/usr/sbin:/usr/local/bin:/usr/local/git/bin:/opt/PalmSDK/Current/bin/:/opt/PalmPDK/arm-gcc/bin/:/opt/PalmPDK/bin/:/usr/X11R6/bin
+PERL5LIB=/sw/lib/perl5:/sw/lib/perl5/darwin
+PIPESTATUS=([0]="0")
+PKG_CONFIG_PATH=/Users/dkirker/projects/webOS/Muses/libs/lib/pkgconfig/
+POSIXLY_CORRECT=y
+PPID=10867
+PREFIX=/Users/dkirker/projects/webOS/Muses/libs/
+PS4='+ '
+PWD=/Users/dkirker/projects/webOS/Muses/ushare-1.1a
+RANDOM=2052
+SGML_CATALOG_FILES=/sw/etc/sgml/catalog
+SHELL=/bin/bash
+SHELLOPTS=braceexpand:hashall:interactive-comments:posix
+SHLVL=3
+SSH_AUTH_SOCK=/tmp/launch-6K2ozd/Listeners
+SVN_EDITOR=vim
+TERM=xterm-color
+TERM_PROGRAM=Apple_Terminal
+TERM_PROGRAM_VERSION=273.1
+TMPC=/var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+TMPDIR=/var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-/
+TMPDIR1=/var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-/
+TMPE=/var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-5966-30579-8267
+TMPO=/var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o
+TMPS=/var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-3780-30579-2052.S
+UID=501
+USER=dkirker
+VERSION=1.1a
+XDG_CACHE_HOME=/Users/dkirker/.cache
+XDG_CONFIG_DIRS=/sw/etc/xdg
+XDG_CONFIG_HOME=/Users/dkirker/.config
+XDG_DATA_DIRS=/sw/share
+XDG_DATA_HOME=/Users/dkirker/.local/share
+XML_CATALOG_FILES=/sw/etc/xml/catalog
+_=--enable-webos
+__CF_USER_TEXT_ENCODING=0x1F5:0:0
+ac_cv_path_INTLTOOL_PERL=/usr/bin/perl
+bindir='${PREFIX}/bin'
+cc=arm-none-linux-gnueabi-gcc
+cpu=x86
+cross_compile=yes
+cross_prefix=arm-none-linux-gnueabi-
+debug=no
+dlna=no
+dostrip=yes
+extralibs=
+force_prefix=yes
+installstrip=-s
+libupnpdir=/Users/dkirker/projects/webOS/Muses/libs/
+localedir='${PREFIX}/share/locale'
+logfile=config.log
+logging=yes
+make=make
+nls=yes
+opt=--enable-webos
+optimize=yes
+optval=--enable-webos
+strip=arm-none-linux-gnueabi-strip
+sysconfdir='${PREFIX}/etc'
+system_name=Darwin
+webos=yes
+Checking for compiler available...
+check_ld
+check_cc
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	int main(){
+     2	    return 0;
+     3	}
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -L/Users/dkirker/projects/webOS/Muses/libs//lib/ -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-5966-30579-8267 /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o
+check_header altivec.h
+check_cpp
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	#include <altivec.h>
+     2	int x;
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -E -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+/var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c:1:21: error: altivec.h: No such file or directory
+check_cc -msse
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	#include <xmmintrin.h>
+     2	int main(void) {
+     3	#if __GNUC__ > 3 || (__GNUC__ == 3 && __GNUC_MINOR__ >= 2)
+     4	return 0;
+     5	#else
+     6	#error no vector builtins
+     7	#endif
+     8	}
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -msse -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+cc1: error: unrecognized command line option "-msse"
+check_cc -march=athlon
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	#include <mm3dnow.h>
+     2	int main(void) {
+     3	__m64 b1;
+     4	b1 = _m_pswapd(b1);
+     5	_m_femms();
+     6	return 0;
+     7	}
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -march=athlon -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+/var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c:1: error: bad value (athlon) for -march= switch
+check_cflags -W
+check_cc -W
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	int x;
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+check_cflags -Wall
+check_cc -Wall
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	int x;
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+check_cflags -D_LARGEFILE_SOURCE
+check_cc -D_LARGEFILE_SOURCE
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	int x;
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+check_cflags -D_FILE_OFFSET_BITS=64
+check_cc -D_FILE_OFFSET_BITS=64
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	int x;
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+check_cflags -D_REENTRANT
+check_cc -D_REENTRANT
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	int x;
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+Checking for locales ...
+check_header locale.h
+check_cpp
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	#include <locale.h>
+     2	int x;
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -E -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+check_lib locale.h setlocale 
+check_header locale.h
+check_cpp
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	#include <locale.h>
+     2	int x;
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -E -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+check_func setlocale
+check_ld
+check_cc
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	extern int setlocale();
+     2	int main(){
+     3	    setlocale();
+     4	    return 0;
+     5	}
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -L/Users/dkirker/projects/webOS/Muses/libs//lib/ -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-5966-30579-8267 /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o
+Checking for ifaddrs ...
+check_lib ifaddrs.h getifaddrs 
+check_header ifaddrs.h
+check_cpp
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	#include <ifaddrs.h>
+     2	int x;
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -DHAVE_SETLOCALE -E -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+check_func getifaddrs
+check_ld
+check_cc
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	extern int getifaddrs();
+     2	int main(){
+     3	    getifaddrs();
+     4	    return 0;
+     5	}
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -DHAVE_SETLOCALE -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -L/Users/dkirker/projects/webOS/Muses/libs//lib/ -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-5966-30579-8267 /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o
+Checking for langinfo ...
+check_header langinfo.h
+check_cpp
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	#include <langinfo.h>
+     2	int x;
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -DHAVE_SETLOCALE -DHAVE_IFADDRS_H -E -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+check_lib langinfo.h nl_langinfo 
+check_header langinfo.h
+check_cpp
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	#include <langinfo.h>
+     2	int x;
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -DHAVE_SETLOCALE -DHAVE_IFADDRS_H -DHAVE_LANGINFO_H -E -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+check_func nl_langinfo
+check_ld
+check_cc
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	extern int nl_langinfo();
+     2	int main(){
+     3	    nl_langinfo();
+     4	    return 0;
+     5	}
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -DHAVE_SETLOCALE -DHAVE_IFADDRS_H -DHAVE_LANGINFO_H -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -L/Users/dkirker/projects/webOS/Muses/libs//lib/ -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-5966-30579-8267 /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o
+Checking for iconv ...
+check_lib iconv.h iconv 
+check_header iconv.h
+check_cpp
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	#include <iconv.h>
+     2	int x;
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -DHAVE_SETLOCALE -DHAVE_IFADDRS_H -DHAVE_LANGINFO_H -DHAVE_LANGINFO_CODESET -E -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+check_func iconv
+check_ld
+check_cc
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	extern int iconv();
+     2	int main(){
+     3	    iconv();
+     4	    return 0;
+     5	}
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -DHAVE_SETLOCALE -DHAVE_IFADDRS_H -DHAVE_LANGINFO_H -DHAVE_LANGINFO_CODESET -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -L/Users/dkirker/projects/webOS/Muses/libs//lib/ -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-5966-30579-8267 /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o
+check_cflags -I/Users/dkirker/projects/webOS/Muses/libs/
+check_cc -I/Users/dkirker/projects/webOS/Muses/libs/
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	int x;
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -DHAVE_SETLOCALE -DHAVE_IFADDRS_H -DHAVE_LANGINFO_H -DHAVE_LANGINFO_CODESET -DHAVE_ICONV -I/Users/dkirker/projects/webOS/Muses/libs/ -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+check_ldflags -L/Users/dkirker/projects/webOS/Muses/libs/
+check_ld -L/Users/dkirker/projects/webOS/Muses/libs/
+check_cc
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	int main(){
+     2	    return 0;
+     3	}
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -DHAVE_SETLOCALE -DHAVE_IFADDRS_H -DHAVE_LANGINFO_H -DHAVE_LANGINFO_CODESET -DHAVE_ICONV -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -L/Users/dkirker/projects/webOS/Muses/libs//lib/ -L/Users/dkirker/projects/webOS/Muses/libs/ -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-5966-30579-8267 /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o
+Checking for libixml ...
+check_lib upnp/ixml.h ixmlRelaxParser -lixml
+check_header upnp/ixml.h
+check_cpp
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	#include <upnp/ixml.h>
+     2	int x;
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -DHAVE_SETLOCALE -DHAVE_IFADDRS_H -DHAVE_LANGINFO_H -DHAVE_LANGINFO_CODESET -DHAVE_ICONV -E -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+check_func ixmlRelaxParser
+check_ld
+check_cc
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	extern int ixmlRelaxParser();
+     2	int main(){
+     3	    ixmlRelaxParser();
+     4	    return 0;
+     5	}
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -DHAVE_SETLOCALE -DHAVE_IFADDRS_H -DHAVE_LANGINFO_H -DHAVE_LANGINFO_CODESET -DHAVE_ICONV -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -L/Users/dkirker/projects/webOS/Muses/libs//lib/ -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-5966-30579-8267 /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o -lixml
+Checking for libthreadutil ...
+check_lib upnp/ThreadPool.h ThreadPoolAdd -lthreadutil -lpthread
+check_header upnp/ThreadPool.h
+check_cpp
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	#include <upnp/ThreadPool.h>
+     2	int x;
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -DHAVE_SETLOCALE -DHAVE_IFADDRS_H -DHAVE_LANGINFO_H -DHAVE_LANGINFO_CODESET -DHAVE_ICONV -E -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+check_func ThreadPoolAdd
+check_ld
+check_cc
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	extern int ThreadPoolAdd();
+     2	int main(){
+     3	    ThreadPoolAdd();
+     4	    return 0;
+     5	}
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -DHAVE_SETLOCALE -DHAVE_IFADDRS_H -DHAVE_LANGINFO_H -DHAVE_LANGINFO_CODESET -DHAVE_ICONV -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -L/Users/dkirker/projects/webOS/Muses/libs//lib/ -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-5966-30579-8267 /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o -lixml -lthreadutil -lpthread
+Checking for libupnp >= 1.4.2 ...
+check_lib upnp/upnp.h UpnpSetMaxContentLength -lupnp
+check_header upnp/upnp.h
+check_cpp
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	#include <upnp/upnp.h>
+     2	int x;
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -DHAVE_SETLOCALE -DHAVE_IFADDRS_H -DHAVE_LANGINFO_H -DHAVE_LANGINFO_CODESET -DHAVE_ICONV -E -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+check_func UpnpSetMaxContentLength
+check_ld
+check_cc
+BEGIN /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+     1	extern int UpnpSetMaxContentLength();
+     2	int main(){
+     3	    UpnpSetMaxContentLength();
+     4	    return 0;
+     5	}
+END /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -DHAVE_SETLOCALE -DHAVE_IFADDRS_H -DHAVE_LANGINFO_H -DHAVE_LANGINFO_CODESET -DHAVE_ICONV -c -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-18913-30579-4981.c
+arm-none-linux-gnueabi-gcc -L/Users/dkirker/projects/webOS/Muses/libs//lib/ -o /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-5966-30579-8267 /var/folders/7R/7RsF4j3CHKC-8tIunycBS++++TI/-Tmp-//ushare-14128-30579-22406.o -lixml -lthreadutil -lpthread -lupnp
+pkg-config libupnp --atleast-version=1.4.2
+
+uShare: configure is OK
+  version            1.1a
+  using libupnp      1.6.0
+configuration:
+  install prefix     /Users/dkirker/projects/webOS/Muses/libs/
+  configuration dir  ${PREFIX}/etc
+  locales dir        ${PREFIX}/share/locale
+  NLS support        yes
+  DLNA support       no
+  webOS Support      yes
+  C compiler         arm-none-linux-gnueabi-gcc
+  STRIP              arm-none-linux-gnueabi-strip
+  make               make
+  CPU                x86 ()
+  debug symbols      no
+  strip symbols      yes
+  optimize           yes
+
+  CFLAGS              -I../ -I/Users/dkirker/projects/webOS/Muses/libs//include/ -W -Wall -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_REENTRANT -O3 -DHAVE_LOCALE_H -DHAVE_SETLOCALE -DHAVE_IFADDRS_H -DHAVE_LANGINFO_H -DHAVE_LANGINFO_CODESET -DHAVE_ICONV -pthread -I/Users/dkirker/projects/webOS/Muses/libs//include/upnp -DHAVE_WEBOS -I/opt/PalmPDK/include -I/opt/PalmPDK/include/SDL --sysroot=/opt/PalmPDK/arm-gcc/sysroot
+  LDFLAGS            -L/Users/dkirker/projects/webOS/Muses/libs//lib/ -L/opt/PalmPDK/device/lib -Wl,--allow-shlib-undefined
+  extralibs           -lixml -lthreadutil -lpthread -lupnp -L/Users/dkirker/projects/webOS/Muses/libs//lib -lpdl -lSDL -lGLES_CM
+
+Creating config.mak ...
+Creating config.h ...

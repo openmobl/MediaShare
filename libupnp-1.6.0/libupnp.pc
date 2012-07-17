@@ -1,0 +1,11 @@
+prefix=/Users/dkirker/projects/webOS/Muses/libs/
+exec_prefix=/Users/dkirker/projects/webOS/Muses/libs/
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libupnp
+Description: Linux SDK for UPnP Devices
+Version: 1.6.0
+Libs:  -L${libdir} -lupnp -lthreadutil -lixml 
+Cflags: -pthread -I${includedir}/upnp
+

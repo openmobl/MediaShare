@@ -1,0 +1,100 @@
+src/nodeList.lo: src/nodeList.c src/inc/ixmlparser.h inc/ixml.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/stdio.h \
+  /opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/features.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/predefs.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/cdefs.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/wordsize.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/gnu/stubs.h \
+  /opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include/stddef.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/types.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/typesizes.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/libio.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/_G_config.h \
+  /opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/wchar.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/wchar.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/gconv.h \
+  /opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include/stdarg.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/stdio_lim.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/sys_errlist.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/string.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/assert.h src/inc/ixmlmembuf.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/stdlib.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/types.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/time.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/endian.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/endian.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/select.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/select.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/sigset.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/time.h \
+  /opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/sys/sysmacros.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/pthreadtypes.h \
+  /opt/PalmPDK/arm-gcc/sysroot/usr/include/alloca.h
+
+src/inc/ixmlparser.h:
+
+inc/ixml.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/stdio.h:
+
+/opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/features.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/predefs.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/cdefs.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/wordsize.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/gnu/stubs.h:
+
+/opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include/stddef.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/types.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/typesizes.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/libio.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/_G_config.h:
+
+/opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/wchar.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/wchar.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/gconv.h:
+
+/opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include/stdarg.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/stdio_lim.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/sys_errlist.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/string.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/assert.h:
+
+src/inc/ixmlmembuf.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/stdlib.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/types.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/time.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/endian.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/endian.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/sys/select.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/select.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/sigset.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/time.h:
+
+/opt/PalmPDK/arm-gcc/lib/gcc/arm-none-linux-gnueabi/4.3.3/include-fixed/sys/sysmacros.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/bits/pthreadtypes.h:
+
+/opt/PalmPDK/arm-gcc/sysroot/usr/include/alloca.h:
